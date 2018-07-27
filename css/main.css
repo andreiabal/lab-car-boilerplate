@@ -1,1 +1,27 @@
 /* Los estilos de tu proyecto */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.background-image {
+  height: 125vh;
+  width: 100%;
+  background-image: url("../assets/images/taxi.jpg");
+  background-size: cover;
+  background-position: center bottom;
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+  grid-template-rows: repeat(3, 100px);
+
+}
+
+.jumbotron {
+  background-color:s #7986CB;
+  height: 400px;
+  width: 600px;
+  padding:70px 30px 70px 30px;
+  margin:0px auto;
+  background: red;
+  color: white;
+}
