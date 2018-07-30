@@ -16,14 +16,27 @@ body {
 }
 
 .taxi-image-mobile {
-  height: 75vh;
+  height: 110vh;
 }
 
-.register-section , .register-section-mobile {
-  padding: 40px;
+/*.register-section , .register-section-mobile {
+  padding: 20px;
+  margin-top: 15vh;
+  color: white;
+}*/
+
+.register-section {
+  padding: 20px;
   margin-top: 15vh;
   color: white;
 }
+
+.register-section-mobile {
+  padding: 10px;
+  margin-top: 30vh;
+  color: white;
+}
+
 
 .register-section hr {
   width: 13vw;
@@ -37,8 +50,16 @@ body {
   font-size: 1.4rem;
 }
 
-.phone-image div , .phone-image-mobile div {
+/*.phone-image div , .phone-image-mobile div {
   width: 80vw;
+} */
+
+.phone-image div {
+  width: 80vw;
+}
+
+.phone-image-mobile div {
+  width: 88vw;
 }
 
 .phone-image img {
