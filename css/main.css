@@ -86,44 +86,6 @@ body {
   border: 1px solid white;
 }
 
-/* Para el mapa 
-
-.container-map{
-    padding: 15px;
-    margin: 40px;
-}
-
-#imp1, #imp2{
-  background-color: #ffc107;
-  margin: 3px;
-  margin-left: 40px;
-  width: 20vw;
-}
-
-.button-map{
-    border: none;
-    padding: 10px 30px;
-    margin: 20px;
-}
-
-.map {
-    height: 250px;
-    width: 100%;
-    margin: 3px;
-}
-
-.container-map-graffy{
-  outline: 1px solid #fff;
-  margin: 40px;
-  padding: 15px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 450px;
-}/*
-
-
-/*FOOTER*/
 footer {
   background-color: #2B2B2B;
   height: 100vh;
