@@ -1,27 +1,135 @@
-/* Los estilos de tu proyecto */
 body {
-  margin: 0;
-  padding: 0;
+  margin: 0 auto;
+  font-family: 'Raleway', sans-serif;
 }
 
-.background-image {
-  height: 125vh;
-  width: 100%;
-  background-image: url("../assets/images/taxi.jpg");
+.bg-color {
+  background-color: #F7B617;
+}
+
+.taxi-image , .taxi-image-mobile {
+  background-image: url(../assets/images/taxi.jpg);
+  background-position-x: 50%;
+  background-position-y: 92%;
   background-size: cover;
-  background-position: center bottom;
-  display: grid;
-  grid-template-columns: repeat(3, 3fr);
-  grid-template-rows: repeat(3, 100px);
-
+  height: 100vh;
 }
 
-.jumbotron {
-  background-color:s #7986CB;
-  height: 400px;
-  width: 600px;
-  padding:70px 30px 70px 30px;
-  margin:0px auto;
-  background: red;
+.taxi-image-mobile {
+  height: 75vh;
+}
+
+.register-section , .register-section-mobile {
+  padding: 40px;
+  margin-top: 15vh;
+  color: white;
+}
+
+.register-section hr {
+  width: 13vw;
+}
+
+.register-section span {
+  font-size: 1rem;
+}
+
+.phone-image-mobile h1 {
+  font-size: 1.4rem;
+}
+
+.phone-image div , .phone-image-mobile div {
+  width: 80vw;
+}
+
+.phone-image img {
+  height: 60vh;
+}
+
+.phone-image h1 {
+  font-size: 1.60rem;
+}
+
+.phone-image-mobile h2 {
+  font-size: 0.99rem;
+}
+
+.phone-image-mobile img {
+  height: 40vh;
+}
+.driver {
+  background-image: url(../assets/images/conduce.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+}
+
+.driver-section {
+  background: rgba(0, 0, 0, 0.5); 
+  color: white;
+  height: 70vh;
+}
+
+.driver-section h2 {
+  padding-top: 70px;
+}
+
+.rates-map {
+  height: 85vh;
+}
+
+#map , #map-mobile {
+  height: 65vh;
+}
+
+.rates-map input[type='text'] , .rates-map-mobile input[type='text'] {
+  border-radius: 8px;
+  border: 1px solid white;
+}
+
+/* Para el mapa 
+
+.container-map{
+    padding: 15px;
+    margin: 40px;
+}
+
+#imp1, #imp2{
+  background-color: #ffc107;
+  margin: 3px;
+  margin-left: 40px;
+  width: 20vw;
+}
+
+.button-map{
+    border: none;
+    padding: 10px 30px;
+    margin: 20px;
+}
+
+.map {
+    height: 250px;
+    width: 100%;
+    margin: 3px;
+}
+
+.container-map-graffy{
+  outline: 1px solid #fff;
+  margin: 40px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 450px;
+}/*
+
+
+/*FOOTER*/
+footer {
+  background-color: #2B2B2B;
+  height: 100vh;
+}
+
+footer a , footer a:hover {
+  text-decoration: none;
   color: white;
 }
