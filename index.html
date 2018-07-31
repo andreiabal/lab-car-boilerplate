@@ -3,7 +3,6 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
@@ -31,7 +30,7 @@
                 <a class="nav-link" href="#">Conduce</a>
               </li>
               <li class="nav-item col-5">
-                <a class="nav-link" href="#">Inicia sesión</a>
+                <a class="nav-link" href="#" data-toggle="modal" data-target="#logIn">Inicia sesión</a>
               </li>
             </ul>
           </div>
@@ -47,13 +46,13 @@
             <h1 class="display-6 text-white font-weight-bold">Eres dueño de tu tiempo</h1><br>
             <h2 class="d-inline lead text-white font-weight-bold">Viaja con</h2> 
             <img src="assets/images/logoBlanco.png" class="d-inline m-3" width="100px">
-            <button type="button" title="Registrate" class="btn bg-white text-dark d-block mb-4 text-body text-uppercase font-weight-bold">REGÍSTRATE</button>
+            <button type="button" title="Registrate" data-toggle="modal" data-target="#register" class="btn bg-white text-dark d-block mb-4 text-body text-uppercase font-weight-bold">REGÍSTRATE</button>
             <div class="d-flex justify-content-evenly mb-3">
               <hr class="bg-white h-1"></hr>
               <span class="font-weight-bold">0 bien</span>
               <hr class="bg-white h-1"></hr>
             </div>
-            <button type="button" title="Conviertete" class="btn bg-white text-dark d-block text-body font-weight-bold">Conviértete en un conductor</button>
+            <button type="button" title="Conviertete" data-toggle="modal" data-target="#conviertete" class="btn bg-white text-dark d-block text-body font-weight-bold">Conviértete en un conductor</button>
           </div>
         </div>
       </section>
@@ -92,10 +91,10 @@
     <!-- Section 3: -->
       <section class="driver container-fluid w-100">
         <div class="row">
-          <div class="pt-5 col-12 col-sm-12 col-md-4 offset-md-8 col-lg-4 offset-lg-8 driver-section">
+          <div class="pt-4 col-12 col-sm-12 col-md-4 offset-md-8 col-lg-4 offset-lg-8 driver-section">
             <h2 class="display-6 text-white font-weight-bold">Conduce cuando quieras</h2>
             <p class="lead text-white">LabCar es una opción flexible para alcanzar tus metas financieras.</p>
-            <button type="button" title="Conviertete" class="btn bg-warning text-white font-weight-bold d-block">Conviértete en conductor</button>
+            <button type="button" title="Conviertete"class="btn bg-warning text-white font-weight-bold d-block">Conviértete en conductor</button>
           </div>
         </div>
       </section>
@@ -107,15 +106,15 @@
             <h5 class="font-weight-normal mb-5">Consulta las tarifas LabCar aquí</h5>
             <div class="form-group-row mb-4">
               <label class="col-form-label col-lg-2 d-inline"><img src="assets/images/shape.png"></label>
-              <input type="text" class="col-md-8 col-lg-8 d-inline p-2 bg-transparent form-control" placeholder="Ingrese su ponto de partida">
+              <input type="text" class="col-md-8 col-lg-8 d-inline p-2 bg-transparent" placeholder="Ingrese su ponto de partida">
             </div>
             <div class="form-group-row mb-5">
               <label class="col-form-label col-lg-2 d-inline"><img src="assets/images/shape2.png"></label>
-              <input type="text" class="col-md-8 col-lg-8 d-inline p-2 bg-transparent form-control" placeholder="Ingrese su destino">
+              <input type="text" class="col-md-8 col-lg-8 d-inline p-2 bg-transparent" placeholder="Ingrese su destino">
             </div>
             <button type="button" title="Trazar ruta" class="btn bg-white d-block text-body text-uppercase m-auto font-weight-bold">¡TRAZAR RUTA!</button>
           </div>
-          <div class="col-md-5 col-lg-5 bg-color border border-white p-2">
+          <div class="col-md-5 col-lg-5 bg-color border order-white p-2">
             <div id="map">
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d64546569.10475828!2d-113.07474146398523!3d-9.099252265128738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x90f99effb40af535%3A0xd2673dbf02a5b69c!2sLatin+America!5e0!3m2!1spt-BR!2sbr!4v1533003339215" width="100%" height="420" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
@@ -130,11 +129,11 @@
             <h7 class="font-weight-bold mb-5">Consulta las tarifas LabCar aquí</h7>
             <div class="form-group-row mb-4 mt-3">
               <label class="col-form-label col-2 col-sm-2 d-inline"><img src="assets/images/shape.png"></label>
-              <input type="text" class="col-8 col-sm-8 d-inline p-2 bg-transparent form-control" placeholder="Partida">
+              <input type="text" class="col-8 col-sm-8 d-inline p-2 bg-transparent" placeholder="Partida">
             </div>
             <div class="form-group-row mb-4">
               <label class="col-form-label col-2 col-sm-2 d-inline"><img src="assets/images/shape2.png"></label>
-              <input type="text" class="col-8 col-sm-8 d-inline p-2 bg-transparent form-control" placeholder="Destino">
+              <input type="text" class="col-8 col-sm-8 d-inline p-2 bg-transparent" placeholder="Destino">
             </div>
             <button type="button" title="Trazar ruta" class="btn bg-white d-block text-body text-uppercase m-auto font-weight-bold">¡TRAZAR RUTA!</button>
           </div>
@@ -147,8 +146,113 @@
           </div>
         </div>
       </section>
+      <!--Modais-->
+      <!--Inicia sesion-->
+      <div class="modal fade" id="logIn" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content bg-info">
+            <div class="modal-header">
+              <h5 class="modal-title ml-auto" id="exampleModalLabel"><i class="fas fa-user-circle fa-6x bg-info p-3 mt-1"></i></h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body bg-light m-3 d-flex flex-column">
+              <div class="input-group p-2">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon1"><i class="fas fa-user"></i></span>
+                </div>
+                <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+              </div>
+              <div class="input-group mb-3 p-2">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon2"><i class="fas fa-lock"></i></span>
+                </div>
+                <input type="text" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="basic-addon1">
+              </div>
+              <button type="submit" class="btn text-white bg-warning mb-3 align-self-center">LOGING</button>
+              <p class="mb-3 align-self-center">Forgot password? <a href="" class="text-danger">Click Here</a>.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Registrate-->
+      <div class="modal fade" id="register" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content bg-light p-2">
+            <button type="button" class="close text-dark ml-auto" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <div class="modal-body d-flex flex-column justify-content-center">
+              <h5 class="text-white text-center bg-dark font-weight-bold p-2">Ya tienes una cuenta?</h5>
+              <span class="text-center">O CREA UNA CUENTA NUEVA</span>
+              <div class="form-group d-flex mt-3">
+                <div class="input-group">
+                  <input type="text" class="form-control m-1" placeholder="Nombre">
+                </div>
+                <div class="input-group">
+                  <input type="text" class="form-control m-1" placeholder="Apellido">
+                </div>
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control mb-1" placeholder="Correo Electronico: ejemplo@correo.mx">
+                <input type="text" class="form-control mb-1" placeholder="Teléfono">
+                <input type="password" class="form-control mb-1" placeholder="Contraseña">
+                <input type="text" class="form-control mb-1" placeholder="Ciudad">
+                <input type="text" class="form-control mb-1" placeholder="(Opcional) Código de invitacion">
+                <select class="form-control register-select">
+                  <option selected>Como te enteraste de nosotros?
+                    <option>Internet</option>
+                    <option>Amigos</option>
+                    <option>Otros</option>
+                  </option>
+                </select>
+              </div>
+              <button type="submit" class="btn text-white w-100 font-weight-bold bg-primary">ENVIAR</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Conviertete-->
+      <div class="modal fade" id="conviertete" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content bg-light p-2">
+            <button type="button" class="close text-dark ml-auto" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <div class="modal-body d-flex flex-column justify-content-center">
+              <div class="form-group">
+                <label class="font-weight-bold text-dark">¿Tienes vehículo de 4 puertas?</label>
+                <select class="form-control mb-4">
+                  <option>Sí</option>
+                  <option>No</option>
+                </select>
+                <label class="font-weight-bold text-dark">Marca</label>
+                <select class="form-control mb-4">
+                  <option selected>Ellige la marca del vehículo</option>
+                  <option>Marca 1</option>
+                  <option>Marca 2</option>
+                </select>
+                <label class="font-weight-bold text-dark">Modelo</label>
+                <select class="form-control mb-4">
+                  <option>Modelo 1</option>
+                  <option>Modelo 2</option>
+                </select>
+                <label class="font-weight-bold text-dark">Año</label>
+                <select class="form-control mb-4">
+                  <option>2000</option>
+                  <option>2010</option>
+                </select>
+                <label class="font-weight-bold text-dark">Número de la matrícula</label>
+                <input type="text" class="form-control mb-1" id="matricula" placeholder="Número de la matrícula">
+                La información de la matrícula ayuda a los clientes a identificar tu vehículo
+              </div>
+              <button type="submit" class="btn text-white w-100 font-weight-bold bg-primary">ENVIAR</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
-
   <!-- Footer -->
     <footer class="d-none d-md-block container-fluid w-100 text-white pt-5">
       <div class="row pt-5">

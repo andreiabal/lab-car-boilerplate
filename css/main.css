@@ -1,4 +1,4 @@
-body {
+ body {
   margin: 0 auto;
   font-family: 'Raleway', sans-serif;
 }
@@ -13,10 +13,6 @@ body {
   background-position-y: 92%;
   background-size: cover;
   height: 100vh;
-}
-
-.taxi-image-mobile {
-  height: 115vh;
 }
 
 .register-section {
@@ -82,14 +78,6 @@ body {
   padding-top: 70px;
 }
 
-.map {
-  height: 85vh;
-}
-
-#map , #map-mobile {
-  height: 65vh;
-}
-
 .map input[type='text'] , .map-mobile input[type='text'] {
   border-radius: 8px;
   border: 1px solid white;
@@ -105,3 +93,8 @@ footer a , footer a:hover {
   text-decoration: none;
   color: white;
 }
+
+
+
+
+
