@@ -84,6 +84,11 @@
   color: white;
 }
 
+#map , #map-mobile {
+  height: 60vh;
+  width: 100%;
+}
+
 footer {
   background-color: #2B2B2B;
   height: 100vh;
@@ -93,8 +98,6 @@ footer a , footer a:hover {
   text-decoration: none;
   color: white;
 }
-
-
 
 
 
