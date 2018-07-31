@@ -16,27 +16,14 @@ body {
 }
 
 .taxi-image-mobile {
-  height: 110vh;
+  height: 115vh;
 }
-
-/*.register-section , .register-section-mobile {
-  padding: 20px;
-  margin-top: 15vh;
-  color: white;
-}*/
 
 .register-section {
   padding: 20px;
   margin-top: 15vh;
   color: white;
 }
-
-.register-section-mobile {
-  padding: 10px;
-  margin-top: 30vh;
-  color: white;
-}
-
 
 .register-section hr {
   width: 13vw;
@@ -46,20 +33,15 @@ body {
   font-size: 1rem;
 }
 
-.phone-image-mobile h1 {
-  font-size: 1.4rem;
+.register-section-mobile {
+  padding: 10px;
+  margin-top: 30vh;
+  color: white;
+  padding-left: 30px;
 }
-
-/*.phone-image div , .phone-image-mobile div {
-  width: 80vw;
-} */
 
 .phone-image div {
   width: 80vw;
-}
-
-.phone-image-mobile div {
-  width: 88vw;
 }
 
 .phone-image img {
@@ -70,13 +52,19 @@ body {
   font-size: 1.60rem;
 }
 
-.phone-image-mobile h2 {
-  font-size: 0.99rem;
+.phone-image-mobile div {
+  width: 88vw;
 }
 
-.phone-image-mobile img {
-  height: 40vh;
+.phone-image-mobile h1 {
+  font-size: 1.6rem;
+  padding-left: 130px;
 }
+
+.phone-image-mobile h2 {
+  font-size: 1.2rem;
+}
+
 .driver {
   background-image: url(../assets/images/conduce.jpg);
   background-size: cover;
@@ -105,6 +93,7 @@ body {
 .rates-map input[type='text'] , .rates-map-mobile input[type='text'] {
   border-radius: 8px;
   border: 1px solid white;
+  color: white;
 }
 
 footer {
