@@ -82,7 +82,7 @@ body {
   padding-top: 70px;
 }
 
-.rates-map {
+.map {
   height: 85vh;
 }
 
@@ -90,7 +90,7 @@ body {
   height: 65vh;
 }
 
-.rates-map input[type='text'] , .rates-map-mobile input[type='text'] {
+.map input[type='text'] , .map-mobile input[type='text'] {
   border-radius: 8px;
   border: 1px solid white;
   color: white;
